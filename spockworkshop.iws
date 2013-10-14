@@ -1,34 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="38febc83-ca71-4582-b450-fc16862c3e20" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/1 - Data Driven Testing — Spock.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2 - Interaction Based Testing — Spock.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/3 - Extensions — Spock.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/bank/Account.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/bank/BasicAccount.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/groovy/bank/BasicAccountTest.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/craftedsw/exceptions/DependendClassCallDuringUnitTestException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/bank/InterestRateAccount.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/groovy/bank/InterestRateAccountTest.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/bank/MarketRateAccount.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/groovy/bank/MarketRateAccountTest.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/bank/RateSource.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/craftedsw/trip/Trip.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/craftedsw/trip/TripDAO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/craftedsw/trip/TripService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/craftedsw/TripService_Original.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/craftedsw/user/User.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/craftedsw/exceptions/UserNotLoggedInException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/craftedsw/user/UserSession.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spockworkshop.iml" afterPath="$PROJECT_DIR$/spockworkshop.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spockworkshop.ipr" afterPath="$PROJECT_DIR$/spockworkshop.ipr" />
+    <list default="true" id="38febc83-ca71-4582-b450-fc16862c3e20" name="Default" comment="all files added">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spockworkshop.iws" afterPath="$PROJECT_DIR$/spockworkshop.iws" />
     </list>
     <ignored path="spockworkshop.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="38febc83-ca71-4582-b450-fc16862c3e20" time="1381559300785" ignored="false" />
+    <file path="/Dummy.txt" changelist="38febc83-ca71-4582-b450-fc16862c3e20" time="1381737752441" ignored="false" />
     <file path="/BankAccountTest.groovy" changelist="38febc83-ca71-4582-b450-fc16862c3e20" time="1381733891882" ignored="false" />
     <file path="/fragment.java" changelist="38febc83-ca71-4582-b450-fc16862c3e20" time="1381735286256" ignored="false" />
     <file path="/BasicAccount.java" changelist="38febc83-ca71-4582-b450-fc16862c3e20" time="1381561524532" ignored="false" />
@@ -138,22 +116,40 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BasicAccountTest.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/groovy/bank/BasicAccountTest.groovy">
+      <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="6" selection-start="54" selection-end="54" vertical-scroll-proportion="0.0">
+            <state line="5" column="13" selection-start="128" selection-end="128" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserNotLoggedInException.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/craftedsw/exceptions/UserNotLoggedInException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="13" selection-start="48" selection-end="48" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InterestRateAccountTest.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/groovy/bank/InterestRateAccountTest.groovy">
+      <file leaf-file-name="DependendClassCallDuringUnitTestException.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/craftedsw/exceptions/DependendClassCallDuringUnitTestException.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="6" selection-start="78" selection-end="78" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#14#45#0" expanded="true" />
-              </folding>
+            <state line="2" column="13" selection-start="48" selection-end="48" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TripDAO.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/craftedsw/trip/TripDAO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="13" selection-start="176" selection-end="176" vertical-scroll-proportion="0.25822785">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -167,22 +163,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MarketRateAccountTest.groovy" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="MarketRateAccountTest.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/groovy/bank/MarketRateAccountTest.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="53" selection-start="589" selection-end="589" vertical-scroll-proportion="1.195122">
+            <state line="19" column="53" selection-start="589" selection-end="589" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#14#45#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MockingApi.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.spockframework/spock-core/1.0-groovy-2.0-SNAPSHOT/source/f42f9280ed8534deb91fd89ba4bc953c301d3785/spock-core-1.0-groovy-2.0-SNAPSHOT-sources.jar!/spock/lang/MockingApi.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="140" column="16" selection-start="4554" selection-end="4554" vertical-scroll-proportion="0.0">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -200,15 +187,6 @@
         <entry file="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.spockframework/spock-core/1.0-groovy-2.0-SNAPSHOT/source/f42f9280ed8534deb91fd89ba4bc953c301d3785/spock-core-1.0-groovy-2.0-SNAPSHOT-sources.jar!/org/spockframework/util/ReflectionUtil.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="157" column="0" selection-start="5258" selection-end="5258" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BasicAccount.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/bank/BasicAccount.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="25" selection-start="121" selection-end="121" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -522,63 +500,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="groovy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bank" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spockworkshop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spockworkshop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spockworkshop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spockworkshop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bank" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -851,13 +777,18 @@
       <created>1381558714192</created>
       <updated>1381558714192</updated>
     </task>
+    <task id="LOCAL-00001" summary="all files added">
+      <created>1381737672547</created>
+      <updated>1381737672547</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="768" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.61791044" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33432835" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -874,7 +805,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3068182" sideWeight="0.38208956" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3068182" sideWeight="0.66567165" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40149254" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -925,7 +856,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="LAST_COMMIT_MESSAGE" value="all files added" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -939,6 +870,7 @@
     <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+    <MESSAGE value="all files added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -948,27 +880,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/bank/RateSource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="17" selection-start="58" selection-end="58" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/craftedsw/exceptions/DependendClassCallDuringUnitTestException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="4" selection-start="554" selection-end="554" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/craftedsw/user/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="0" selection-start="469" selection-end="469" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/craftedsw/user/UserSession.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="13" selection-start="118" selection-end="118" vertical-scroll-proportion="0.0">
@@ -979,27 +890,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/org/craftedsw/TripService_Original.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="13" selection-start="288" selection-end="288" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/craftedsw/trip/TripDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="13" selection-start="176" selection-end="176" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/craftedsw/trip/Trip.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="13" selection-start="42" selection-end="42" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/craftedsw/trip/TripService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="13" selection-start="225" selection-end="225" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1057,10 +947,54 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/groovy/bank/MarketRateAccountTest.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="53" selection-start="589" selection-end="589" vertical-scroll-proportion="1.195122">
+        <state line="19" column="53" selection-start="589" selection-end="589" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="e#14#45#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/craftedsw/trip/Trip.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="13" selection-start="42" selection-end="42" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/craftedsw/trip/TripService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="13" selection-start="225" selection-end="225" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="13" selection-start="128" selection-end="128" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/craftedsw/exceptions/UserNotLoggedInException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="13" selection-start="48" selection-end="48" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/craftedsw/exceptions/DependendClassCallDuringUnitTestException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="13" selection-start="48" selection-end="48" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/craftedsw/trip/TripDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="13" selection-start="176" selection-end="176" vertical-scroll-proportion="0.25822785">
+          <folding />
         </state>
       </provider>
     </entry>
