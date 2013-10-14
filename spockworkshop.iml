@@ -1,79 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module relativePaths="true" type="JAVA_MODULE" version="4">
   <component name="NewModuleRootManager" inherit-compiler-output="true">
-    <exclude-output/>
-    <orderEntry type="inheritedJdk"/>
-    <content url="file://$MODULE_DIR$/">
-      <excludeFolder url="file://$MODULE_DIR$/build"/>
-      <excludeFolder url="file://$MODULE_DIR$/.gradle"/>
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/groovy" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/build" />
     </content>
-    <orderEntry type="sourceFolder" forTests="false"/>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>
-          <root url="jar:///Users/lloyd/.gradle/caches/artifacts-26/filestore/org.codehaus.groovy/groovy-all/2.1.5/jar/eda9522cc90f16c06dd51739e2d02daafad0b36f/groovy-all-2.1.5.jar!/"/>
+          <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.codehaus.groovy/groovy-all/2.1.5/jar/eda9522cc90f16c06dd51739e2d02daafad0b36f/groovy-all-2.1.5.jar!/" />
         </CLASSES>
-        <JAVADOC/>
+        <JAVADOC />
         <SOURCES>
-          <root url="jar:///Users/lloyd/.gradle/caches/artifacts-26/filestore/org.codehaus.groovy/groovy-all/2.1.5/source/ded788d792e08a4c22a38ac76d4b8bcfbca533ea/groovy-all-2.1.5-sources.jar!/"/>
+          <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.codehaus.groovy/groovy-all/2.1.5/source/ded788d792e08a4c22a38ac76d4b8bcfbca533ea/groovy-all-2.1.5-sources.jar!/" />
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library" scope="TEST">
       <library>
         <CLASSES>
-          <root url="jar:///Users/lloyd/.gradle/caches/artifacts-26/filestore/org.spockframework/spock-core/1.0-groovy-2.0-SNAPSHOT/jar/ca9b996dfe8f89b9d23535d98fc2ed715bf8c1/spock-core-1.0-groovy-2.0-SNAPSHOT.jar!/"/>
+          <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.spockframework/spock-core/1.0-groovy-2.0-SNAPSHOT/jar/ca9b996dfe8f89b9d23535d98fc2ed715bf8c1/spock-core-1.0-groovy-2.0-SNAPSHOT.jar!/" />
         </CLASSES>
-        <JAVADOC/>
+        <JAVADOC />
         <SOURCES>
-          <root url="jar:///Users/lloyd/.gradle/caches/artifacts-26/filestore/org.spockframework/spock-core/1.0-groovy-2.0-SNAPSHOT/source/f42f9280ed8534deb91fd89ba4bc953c301d3785/spock-core-1.0-groovy-2.0-SNAPSHOT-sources.jar!/"/>
+          <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.spockframework/spock-core/1.0-groovy-2.0-SNAPSHOT/source/f42f9280ed8534deb91fd89ba4bc953c301d3785/spock-core-1.0-groovy-2.0-SNAPSHOT-sources.jar!/" />
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library" scope="TEST">
       <library>
         <CLASSES>
-          <root url="jar:///Users/lloyd/.gradle/caches/artifacts-26/filestore/org.hamcrest/hamcrest-core/1.3/jar/42a25dc3219429f0e5d060061f71acb49bf010a0/hamcrest-core-1.3.jar!/"/>
+          <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.hamcrest/hamcrest-core/1.3/jar/42a25dc3219429f0e5d060061f71acb49bf010a0/hamcrest-core-1.3.jar!/" />
         </CLASSES>
-        <JAVADOC/>
+        <JAVADOC />
         <SOURCES>
-          <root url="jar:///Users/lloyd/.gradle/caches/artifacts-26/filestore/org.hamcrest/hamcrest-core/1.3/source/1dc37250fbc78e23a65a67fbbaf71d2e9cbc3c0b/hamcrest-core-1.3-sources.jar!/"/>
+          <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.hamcrest/hamcrest-core/1.3/source/1dc37250fbc78e23a65a67fbbaf71d2e9cbc3c0b/hamcrest-core-1.3-sources.jar!/" />
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library" scope="TEST">
       <library>
         <CLASSES>
-          <root url="jar:///Users/lloyd/.gradle/caches/artifacts-26/filestore/cglib/cglib-nodep/2.2.2/jar/d456bb230c70c0b95c76fb28e429d42f275941/cglib-nodep-2.2.2.jar!/"/>
+          <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/cglib/cglib-nodep/2.2.2/jar/d456bb230c70c0b95c76fb28e429d42f275941/cglib-nodep-2.2.2.jar!/" />
         </CLASSES>
-        <JAVADOC/>
+        <JAVADOC />
         <SOURCES>
-          <root url="jar:///Users/lloyd/.gradle/caches/artifacts-26/filestore/cglib/cglib-nodep/2.2.2/source/fc1558bebc50419cdb55fbffd81c290e21f058c1/cglib-nodep-2.2.2-sources.jar!/"/>
+          <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/cglib/cglib-nodep/2.2.2/source/fc1558bebc50419cdb55fbffd81c290e21f058c1/cglib-nodep-2.2.2-sources.jar!/" />
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library" scope="TEST">
       <library>
         <CLASSES>
-          <root url="jar:///Users/lloyd/.gradle/caches/artifacts-26/filestore/org.objenesis/objenesis/1.2/jar/bfcb0539a071a4c5a30690388903ac48c0667f2a/objenesis-1.2.jar!/"/>
+          <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.objenesis/objenesis/1.2/jar/bfcb0539a071a4c5a30690388903ac48c0667f2a/objenesis-1.2.jar!/" />
         </CLASSES>
-        <JAVADOC/>
+        <JAVADOC />
         <SOURCES>
-          <root url="jar:///Users/lloyd/.gradle/caches/artifacts-26/filestore/org.objenesis/objenesis/1.2/source/71909ee0264af468fe26f0a2467d01bcb85f6fa9/objenesis-1.2-sources.jar!/"/>
+          <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.objenesis/objenesis/1.2/source/71909ee0264af468fe26f0a2467d01bcb85f6fa9/objenesis-1.2-sources.jar!/" />
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library" scope="TEST">
       <library>
         <CLASSES>
-          <root url="jar:///Users/lloyd/.gradle/caches/artifacts-26/filestore/junit/junit/4.11/jar/4e031bb61df09069aeb2bffb4019e7a5034a4ee0/junit-4.11.jar!/"/>
+          <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/junit/junit/4.11/jar/4e031bb61df09069aeb2bffb4019e7a5034a4ee0/junit-4.11.jar!/" />
         </CLASSES>
-        <JAVADOC/>
+        <JAVADOC />
         <SOURCES>
-          <root url="jar:///Users/lloyd/.gradle/caches/artifacts-26/filestore/junit/junit/4.11/source/28e0ad201304e4a4abf999ca0570b7cffc352c3c/junit-4.11-sources.jar!/"/>
+          <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/junit/junit/4.11/source/28e0ad201304e4a4abf999ca0570b7cffc352c3c/junit-4.11-sources.jar!/" />
         </SOURCES>
       </library>
     </orderEntry>
   </component>
-  <component name="ModuleRootManager"/>
 </module>
+
