@@ -6,6 +6,9 @@ public class BasicAccount implements Account{
     private final String accountNumber;
 
     public BasicAccount(String accountNumber, double balance) {
+        if(balance <0) {
+            throw new IllegalArgumentException("Balance must be greater than 0 but was " + balance);
+        }
         this.accountNumber = accountNumber;
         this.balance = balance;
     }

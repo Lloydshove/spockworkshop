@@ -1,18 +1,23 @@
 package bank
 
 import spock.lang.Specification
-import spock.lang.Timeout
-import spock.lang.Unroll
 
 class MarketRateAccountTest extends Specification {
 
 
+    // write more data driven tests with some mocking (also called interaction based testing)
+    // play around with the annotations available.  When would you use each?
+    //                                           - Unroll
+    //                                           - Timeout
+    //                                           - Ignore(reason = xxx)
+    //                                           - IgnoreRest
+    //                                           - IgnoreIf
+    //                                           - Requires
+    //                                           - TypeChecked
+    //                                           - Shared
+    //                                           - Stepwise
 
-    // Interaction based testing
 
-    // 1 - Write some parameterized tests for this, you can't do them without mocking.  So do that!
-    @Unroll
-    @Timeout(1)
     def "when market rate is #marketRate the balance with interest is #expected after #months months"() {
         RateSource mockRate = Mock()
 

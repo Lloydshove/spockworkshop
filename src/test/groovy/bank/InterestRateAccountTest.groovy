@@ -19,7 +19,12 @@ class InterestRateAccountTest extends Specification {
         account.balance() == 101
     }
 
-    // 2 - Make it into a parameterized test testing multiple cases
+
+    // Redo the above test using the MAGIC spock old() feature.  Does it make this test better?
+    // sometimes it does.  e.g. for cache hist, testing code that adds to/removes from lists etc....
+
+
+    // 2 - Make it into a parameterized test testing multiple cases using data pipes <<
     def "interest rates are calculated as expected for many cases"() {
         given: "an account"
         def account = new InterestRateAccount("1234", initialBalance, interestRate)
@@ -38,10 +43,8 @@ class InterestRateAccountTest extends Specification {
         expected << [101, 204, 309]
     }
 
-    // 3 - use those parameters to make the test name more readable so that when it fails its obvious
-    // the values used ( don't forget to @Unroll )
-
-    @Unroll
+    // 3 - use  parameter names in the test to make it more readable
+    //   - make each test parameter be expanded to its own test case
     def "starting balance #initialBalance with rate #interestRate for #numberOfMonths"() {
         given: "an account"
         def account = new InterestRateAccount("1234", initialBalance, interestRate)
@@ -59,10 +62,6 @@ class InterestRateAccountTest extends Specification {
         300            | 0.03         | 12             || 309
     }
 
-    // 4 - try different styles of parameterization
-    //      - Data tables
-    //      - Data pipes
-    //      - Data variabls  (not great for different values per test run)
 
 
 }
